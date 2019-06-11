@@ -1,0 +1,384 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 10504,
+      "max": [
+        2.1258740425109863,
+        0.66236799955368042,
+        5.7168788909912109
+      ],
+      "min": [
+        -2.1258819103240967,
+        -0.55881798267364502,
+        0.0091949999332427979
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 126048,
+      "componentType": 5126,
+      "count": 10504,
+      "max": [
+        0.99923396110534668,
+        0.99999785423278809,
+        0.99996805191040039
+      ],
+      "min": [
+        -0.99914264678955078,
+        -0.99999487400054932,
+        -0.99995958805084229
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 10504,
+      "max": [
+        0.99999994039535522,
+        0.99994146823883057,
+        0.99972778558731079,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99999988079071045,
+        -0.99999779462814331,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 10504,
+      "max": [
+        1.9873000383377075,
+        0.89259999990463257
+      ],
+      "min": [
+        -0.49390000104904175,
+        -1.5321999788284302
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 32682,
+      "max": [
+        10503
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 252096,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.19968600571155548,
+        -0.1505810022354126,
+        5.3250179290771484
+      ],
+      "min": [
+        -0.19968099892139435,
+        -0.23603500425815582,
+        5.160527229309082
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 253248,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.84803050756454468,
+        -0.50891828536987305,
+        0.23439830541610718
+      ],
+      "min": [
+        -0.84803050756454468,
+        -0.99968987703323364,
+        -0.35891589522361755
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 168064,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.99999856948852539,
+        0.85747098922729492,
+        0.011727087199687958,
+        1
+      ],
+      "min": [
+        0.51453059911727905,
+        -0.8574720025062561,
+        -0.011798772029578686,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 84032,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.90960001945495605,
+        0.87129998207092285
+      ],
+      "min": [
+        0.088799998164176941,
+        0.097099997103214264
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 130728,
+      "componentType": 5125,
+      "count": 420,
+      "max": [
+        95
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "deadlyvenomousskateboarding (https://sketchfab.com/deadlyvenomousskateboarding)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/c7d21163fe774ee8909715674c975ce8",
+      "title": "Naruto The Last (Rig Limited)"
+    },
+    "generator": "Sketchfab-3.18.5",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 132408,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 84800,
+      "byteOffset": 132408,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 254400,
+      "byteOffset": 217208,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 169600,
+      "byteOffset": 471608,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 641208,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material__148_baseColor.png"
+    },
+    {
+      "uri": "textures/Material__148_emissive.png"
+    },
+    {
+      "uri": "textures/Material__147_baseColor.png"
+    },
+    {
+      "uri": "textures/Material__147_emissive.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "name": "Material__147",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.20000000000000001
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "emissiveTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "name": "Material__148",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.20000000000000001
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "Naruto.obj.cleaner.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
+

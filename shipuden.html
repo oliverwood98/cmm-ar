@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>
+        Childhood Memory
+    </title>
+    <!-- include A-Frame obviously -->
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <!-- include ar.js for A-Frame  -->
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+    <!--<a-entity gltf-model="Jiraiya/scene.gltf" scale="" position="0 -200 -500">-->
+    <!-- <a-entity gltf-model="Jiraiya/scene.gltf" scale="0.02 0.02 0.02" rotation="270 90 270" position="-15 -40 0"></a-entity> -->
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+  
+  <a-scene  embedded arjs>
+    <a-marker-camera preset='hiro'>
+        <a-entity gltf-model="Naruto-kid/scene.gltf" scale="0.006 0.006 0.006" rotation="0 30 -20" position="-0 -0 0"></a-entity>
+    </a-marker-camera>
+  </a-scene>
+  
+</body>
+</html>

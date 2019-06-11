@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>
+        Childhood Memory
+    </title>
+    <!-- include A-Frame obviously -->
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <!-- include ar.js for A-Frame -->
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+    <!--<a-entity gltf-model="Jiraiya/scene.gltf" scale="" position="0 -200 -500">-->
+</head>
+<body style='margin : 0px; overflow: hidden;' >
+
+  <a-scene  embedded arjs>
+      <a-marker-camera preset='hiro'>
+        <a-entity gltf-model="sunny/scene.gltf" scale=".3 .3 .3" rotation="90 0 0" position="0 0 0">
+            <a-animation attribute="rotation" to="0 360 90" dur="9000" repeat="idefinite" easing="linear"></a-animation>
+        </a-entity>
+    </a-marker-camera>
+  </a-scene>
+
+  
+</body>
+</html>

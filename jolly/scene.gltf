@@ -1,0 +1,338 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 12424,
+      "max": [
+        0.079269997775554657,
+        0.078550003468990326,
+        0.012310000136494637
+      ],
+      "min": [
+        -0.079039998352527618,
+        -0.079879999160766602,
+        -0.012310000136494637
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 149088,
+      "componentType": 5126,
+      "count": 12424,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 36612,
+      "max": [
+        12423
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 298176,
+      "componentType": 5126,
+      "count": 1473,
+      "max": [
+        0.047899998724460602,
+        0.039629999548196793,
+        0.016419999301433563
+      ],
+      "min": [
+        -0.048190001398324966,
+        -0.056060001254081726,
+        0.0082099996507167816
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 315852,
+      "componentType": 5126,
+      "count": 1473,
+      "max": [
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 146448,
+      "componentType": 5125,
+      "count": 3447,
+      "max": [
+        1472
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Jhimwell Vizconde (https://sketchfab.com/jhimwell0801)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/f1cce5a141ac4711851bf24576f49b8e",
+      "title": "Trafalgar Law's Jolly Roger"
+    },
+    "generator": "Sketchfab-3.18.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 160236,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 333528,
+      "byteOffset": 160236,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 493764,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.44046417290000001,
+            0.44046417290000001,
+            0.44046417290000001,
+            1
+          ],
+          "glossinessFactor": 0.88243140239999995,
+          "specularFactor": [
+            0.17854420730000001,
+            0.17854420730000001,
+            0.17854420730000001
+          ]
+        }
+      },
+      "name": "Material"
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glossinessFactor": 0.86413871949999999,
+          "specularFactor": [
+            0.032202743899999997,
+            0.032202743899999997,
+            0.032202743899999997
+          ]
+        }
+      },
+      "name": "Material.001"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Curve.003_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Curve.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        5.4242799999999995,
+        0,
+        0,
+        0,
+        0,
+        5.4242799999999995,
+        0,
+        0,
+        0,
+        0,
+        1.81741,
+        0,
+        -0.0031100000000000008,
+        -0.064070000000000016,
+        0.044580000000000009,
+        1
+      ],
+      "name": "Curve.003"
+    },
+    {
+      "mesh": 0,
+      "name": "Curve.003_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        5.4242799999999995,
+        0,
+        0,
+        0,
+        0,
+        5.4242799999999995,
+        0,
+        0,
+        0,
+        0,
+        1.81741,
+        0,
+        -0.00024000000000000009,
+        -0.024590000000000004,
+        0.022200000000000004,
+        1
+      ],
+      "name": "Curve.001"
+    },
+    {
+      "mesh": 1,
+      "name": "Curve.001_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2.7084200000000003,
+        1
+      ],
+      "name": "Hemi"
+    },
+    {
+      "name": "Hemi"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
